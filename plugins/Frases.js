@@ -1,8 +1,8 @@
 let handler  = async (m, { conn }) => {
-  conn.reply(m.chat,`“${pickRandom(global.Frases)}”`, m)
+  conn.reply(m.chat,`“${pickRandom(global.irene)}”`, m)
 }
-handler.help = ['Frases']
-handler.tags = ['Citas']
+handler.help = ['irene']
+handler.tags = ['Irene']
 handler.command = /^(Frases)$/i
 handler.owner = false
 handler.mods = false
@@ -17,4 +17,4 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 global.bucin = 
-  [ "Mau " ]
+  [ ola, sexo? ]
