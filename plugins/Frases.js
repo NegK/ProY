@@ -16,5 +16,5 @@ module.exports = handler
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
-global.bucin = 
+global.irene = 
   [ ola, sexo? ]
